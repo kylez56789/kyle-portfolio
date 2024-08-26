@@ -2,9 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
-
 @layer base {
-    body {
-        @apply font-primary bg-primary text-white leading-loose;
-    }
+  body {
+    @apply font-primary bg-primary text-white leading-loose;
+  }
 }
