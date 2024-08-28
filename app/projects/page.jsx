@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 import React, { useState } from "react";
 
 import { Swiper, SwiperSlide, SwiperSlider } from "swiper/react";
-import SwiperCore, { Keyboard } from "swiper";
+import SwiperCore, { Keyboard } from "swiper/core";
 import "swiper/css";
 
 import { BsArrowUpRight, BsGit, BsGithub } from "react-icons/bs";
