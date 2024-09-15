@@ -5,30 +5,32 @@ import { BsArrowDownRight } from "react-icons/bs";
 import Link from "next/link";
 import { motion } from "framer-motion";
 
-const articletypes = [
+export const articletypes = [
   {
     num: "01",
     title: "Blogs",
     description: "Random personal stuff.",
-    href: "",
+    href: "/guides/blogs",
+    postsref: "blogs",
   },
   {
     num: "02",
     title: "Notes",
     description: "System design and general programming notes.",
-    href: "",
+    href: "/guides/notes",
+    postsref: "notes",
   },
   {
     num: "03",
     title: "Leetcode",
     description: "Competitive programming or Leetcode algorithms.",
-    href: "",
+    href: "leetcode",
   },
   {
     num: "04",
     title: "Papers and Articles",
     description: "Stuff I have read recently.",
-    href: "",
+    href: "papers",
   },
 ];
 

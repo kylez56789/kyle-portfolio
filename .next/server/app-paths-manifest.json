@@ -1,3 +1,6 @@
 {
-  "/guides/page": "app/guides/page.js"
+  "/guides/page": "app/guides/page.js",
+  "/guides/blogs/page": "app/guides/blogs/page.js",
+  "/page": "app/page.js",
+  "/favicon.ico/route": "app/favicon.ico/route.js"
 }
